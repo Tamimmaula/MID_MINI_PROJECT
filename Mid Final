@@ -1,0 +1,41 @@
+<form action="/action_page.php">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="id" name="id">
+  </div>
+  
+    <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="password" name="password">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Confirm password" name="Confirm password">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Name" name="Name">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Email" name="Email">
+  </div>
+  
+   <div class="navbar">
+  <a href="#home">User</a>
+  <a href="#news">Type [User/Admin]</a>
+  <div class="User">
+    <button class="dropbtn">User
+      <i class="fa fa-caret-down"></i>
+    </button>
+
+    </div>
+  </div>
+</div> 
+
+  <button type="submit" class="btn">Register</button>
+</form>
